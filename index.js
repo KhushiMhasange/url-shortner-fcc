@@ -8,7 +8,7 @@ const dns = require('dns');
 const { Module } = require('module');
 const { doesNotMatch } = require('assert');
 
-mongoose.connect('mongodb+srv://KhushiMhasange:Khushi2004@cluster0.d2sb7l4.mongodb.net/Url?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('mongodb+srv://KhushiMhasange:<password>@cluster0.d2sb7l4.mongodb.net/Url?retryWrites=true&w=majority&appName=Cluster0');
 // Basic Configuration
 const port = process.env.PORT || 3000;
 
